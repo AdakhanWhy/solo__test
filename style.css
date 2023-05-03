@@ -1,0 +1,378 @@
+/* 1. Header */
+/* 2. Sidebar */
+/* 3. Main */
+/* 4. Footer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-width: 320px;
+    height: 100vh;
+
+    position: relative;
+
+    font-family: fantasy;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 10vh;
+
+    background-color: orangered;
+}
+
+.navbar {
+    width: 90%;
+    height: inherit;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    padding: 5px 10px;
+
+    border: 2px solid yellow;
+
+    color: yellow;
+    font-size: 30px;
+    font-weight: 500;
+
+    transition: all .1s linear;
+}
+
+.nav__logo:hover {
+    border: 2px solid darkorange;
+
+    color: darkorange;
+
+    transform: scale(1.1);
+}
+
+.nav__ul {
+    list-style-type: none;
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__ul li {
+    border: 2px solid yellow;
+
+    transition: all .1s linear;
+}
+
+.nav__ul li:hover {
+    border: 2px solid darkorange;
+
+    color: darkorange;
+
+    transform: scale(1.1);
+}
+
+.nav__list {
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+    padding: 5px 20px;
+
+    color: yellow;
+    font-size: 18px;
+
+    transition: all .1s linear;
+}
+
+.nav__list:hover {
+   color: darkorange;
+}
+
+
+
+/* Sidebar */
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    padding: 10px;
+
+    position: fixed;
+
+    border-right: 1px solid black;
+
+    background-color: yellow;
+}
+
+.sidebar__ul {
+    list-style-type: none;
+    width: 100%;
+    height: 35%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.sidebar__ul:hover {
+    border: 1px solid black;
+}
+
+.sidebar__ul li {
+    width: 100%;
+    height: 5vh;
+    padding: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar__ul li:hover {
+    color: orange;
+}
+
+.sidebar__list {
+    text-decoration: none;
+    width: 70%;
+    height: inherit;
+
+    color: black;
+    font-size: 20px;
+}
+
+.sidebar__list:hover {
+    border: 1px dashed red;
+
+    color: orange;
+}
+
+.sidebar__photo {
+    width: 40px;
+    height: inherit;
+}
+
+.sidebar__placeholder {
+    width: 100%;
+    height: 55%;
+    
+    border: 2px solid black;
+
+    background-image: url('https://www.pngitem.com/pimgs/m/92-920262_anime-santa-hat-transparent-santa-claus-anime-png.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.sidebar__placeholder button {
+    width: 50%;
+    height: 5vh;
+    margin-bottom: 5vh;
+
+    border: 2px solid blueviolet;
+    border-radius: 20px;
+
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: 700;
+
+    background-color: bisque;
+
+    transition: all .1s ease;
+}
+
+.sidebar__placeholder button:hover {
+    color: aqua;
+    background-color: black;
+
+    box-shadow: 3px 3px orange;
+
+    transform: scale(1.1);
+}
+
+
+/* Main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+/* footer {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+    background-color: darkorange;
+}
+
+.footer__section {
+    width: 80%;
+    height: inherit;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__ul {
+    list-style-type: none;
+    padding: 10px 20px;
+
+    border: 2px solid yellow;
+
+    transition: all .1s ease-in-out;
+}
+
+.footer__ul:hover {
+    border: 2px dashed greenyellow;
+
+    transform: scale(1.1);
+}
+
+.footer__ul li {
+    margin: 5px 10px;
+
+    border: 2px dotted yellowgreen;
+}
+
+.footer__ul li:hover {
+    border: 2px solid yellow;
+}
+
+.footer__list {
+    text-decoration: none;
+    margin: 10px;
+
+    font-size: 18px;
+    color: yellow;
+}
+
+.footer__bye {
+    text-align: center;
+    width: 10%;
+    height: auto;
+    padding: 10px;
+
+    border: 2px solid yellow;
+
+    font-size: 20px;
+    font-weight: 500;
+    color: yellow;
+
+    transition: all .1s ease-in-out;
+}
+
+.footer__bye:hover {
+    border: 2px dashed yellowgreen;
+
+    color: yellowgreen;
+
+    transform: scale(1.1);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
